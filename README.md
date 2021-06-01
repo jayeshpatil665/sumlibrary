@@ -23,7 +23,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.jayeshpatil665:sumlibrary:Tag'
+	        implementation 'com.github.jayeshpatil665:sumlibrary:1.0'
 	}
 <br><br>
 <h2>Methods you can call</h2>
