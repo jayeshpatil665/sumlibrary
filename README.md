@@ -27,18 +27,20 @@ Step 2. Add the dependency
 	}
 <br><br>
 <h2>Methods you can call</h2>
+
 #Summation Library :
-public class SumMethods {
-public static int addthis(int x,int y){
-int out = x+y;
-return out;
-}
-}
+
+public class SumMethods { <br>
+public static int addthis(int x,int y){ <br>
+int out = x+y; <br>
+return out; <br>
+} <br>
+} <br>
 <br>
 
 #Toast method 👍
-public class Toasting {
-public static void doToast(Context c,String msg){
-Toast.makeText(c, ""+msg, Toast.LENGTH_SHORT).show();
-}
+public class Toasting { <br>
+public static void doToast(Context c,String msg){<br>
+Toast.makeText(c, ""+msg, Toast.LENGTH_SHORT).show();<br>
+}<br>
 }
