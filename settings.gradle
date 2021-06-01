@@ -1,0 +1,3 @@
+rootProject.name = "AdditionLibrary"
+include ':app'
+include ':sumlibrary'
