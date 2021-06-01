@@ -44,3 +44,20 @@ public static void doToast(Context c,String msg){<br>
 Toast.makeText(c, ""+msg, Toast.LENGTH_SHORT).show();<br>
 }<br>
 }
+<br>
+<h2>= Sample Implementation :</h2>
+<br>
+public void toSum(View view) {
+
+        int no1,no2;
+        no1 = Integer.parseInt(etNo1.getText().toString().trim());
+        no2 = Integer.parseInt(etNo2.getText().toString().trim());
+        if (no1>0 && no2>0)
+        {
+            Toasting.doToast(this.getApplicationContext(),""+SumMethods.addthis(no1,no2));
+        }
+        else
+        {
+            Toasting.doToast(this.getApplicationContext(),"enter values greater than 0 ZERO");
+        }
+    }
